@@ -7,46 +7,68 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: #3046c5;
+    color: #3b4681;
 }
 
 header h2 {
-      color: #cec8ff;
+    color: #32056d;
 }
 
- .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0;
+.afooter{
+    color: #ffffff;
 }
+.afooter:hover {
+
+    color: #7cecab;
+    
+}
+
+.site-footer {
+    /*background-image: linear-gradient(#CEC8FF, white);*/
+    padding: 20px 0;
+    background-image: url(/img/sunset.jpg) ;
+    background-size: cover;
+        height: auto;
+}
+
 .jumbotron {
     margin: 0;
-    padding: 30px;
-    background-image:  linear-gradient(to right, #563700,#3046C5,
-     #601068);
-     color: white;
+   /* padding: 30px;*/
+   /* background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);*/
+    color: white;
+        background-image: url(/img/mountain3.jpg) ;
+        background-size: cover;
+        height: auto;
+       
+
 }
+
 .row-content {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
-
 }
 
-
-.navbar-dark {
-    background-color: #901CAD;
+.navbar {
+   /*    background-color: #901cad;    */
+   background-color: rgba(0, 80, 56, 0.8);
 }
 
-.tab-content {
-    border: 1px solid;
+/*.tab-content {
+    border: 1px solid #DDD;
     border-top: none;
     padding: 10px;
 }
+*/
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .carousel {
-    border: solid #563700;
+    border: solid #5637DD;
 }
+
+
+
+
