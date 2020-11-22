@@ -24,23 +24,15 @@ header h2 {
 }
 
 .site-footer {
-    /*background-image: linear-gradient(#CEC8FF, white);*/
+    background-image: linear-gradient(#CEC8FF, white);
     padding: 20px 0;
-    background-image: url(/img/sunset.jpg) ;
-    background-size: cover;
-        height: auto;
-}
+} 
 
-.jumbotron {
+ .jumbotron {
     margin: 0;
-   /* padding: 30px;*/
-   /* background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);*/
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
     color: white;
-        background-image: url(/img/mountain3.jpg) ;
-        background-size: cover;
-        height: auto;
-       
-
 }
 
 .row-content {
@@ -50,16 +42,16 @@ header h2 {
 }
 
 .navbar {
-   /*    background-color: #901cad;    */
-   background-color: rgba(0, 80, 56, 0.8);
-}
+      background-color: #901cad;    
+      
+    }
 
-/*.tab-content {
+.tab-content {
     border: 1px solid #DDD;
     border-top: none;
     padding: 10px;
 }
-*/
+
 
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
@@ -67,6 +59,13 @@ header h2 {
 
 .carousel {
     border: solid #5637DD;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
 
 
